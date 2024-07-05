@@ -1,0 +1,35 @@
+# Ignore environment variables file
+.env
+
+# Ignore session and key files
+*.pkl
+*.bin
+*.csv
+*.txt
+*.key
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
