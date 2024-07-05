@@ -1,6 +1,6 @@
 # Passvault-Desktop
 
-Passvault-Desktop is a secure and user-friendly desktop application for managing your passwords. Built with PySide6 and Flask, it offers robust features such as user authentication, secure storage, and easy retrieval of credentials. Ideal for personal and professional use, Passvault-Desktop ensures that your sensitive information remains safe and accessible.
+Passvault-Desktop is a secure and user-friendly desktop application for managing your passwords. Built with PySide6, it offers robust features such as user authentication, secure storage, and easy retrieval of credentials. Ideal for personal and professional use, Passvault-Desktop ensures that your sensitive information remains safe and accessible.
 
 ## Features
 
@@ -15,9 +15,10 @@ Passvault-Desktop is a secure and user-friendly desktop application for managing
 ### Prerequisites
 
 - Python 3.7+
-- Flask
 - PySide6
-- Other dependencies listed in `requirements.txt`
+- requests
+- python-dotenv
+- cryptography
 
 ### Steps
 
@@ -28,7 +29,7 @@ Passvault-Desktop is a secure and user-friendly desktop application for managing
     cd Passvault-Desktop
     ```
 
-2. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it (recommended):
 
     ```sh
     python -m venv venv
